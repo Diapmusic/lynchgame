@@ -15,7 +15,7 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Mk-Labs, <br /> All Rights Reserved</p>
+        <p>Mk-Studio, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
@@ -32,7 +32,7 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>mk-labs</p>
+        <p>mk-studio</p>
         <p>contact number</p>
         <p>company email addres</p>
       </div>
