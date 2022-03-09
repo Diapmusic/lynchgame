@@ -18,7 +18,7 @@ const Navbar = () => {
           <p><a href="#features">Roadmap</a></p>
           <p><a href="#possibility">Lynch Token</a></p>
           <p><a href="#home">About</a></p>
-          <p><a href="#blog">Contact</a></p>
+          <p><a href="#blog"></a></p>
         </div>
       </div>
       
