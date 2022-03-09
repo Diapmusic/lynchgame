@@ -13,7 +13,7 @@ function Header (){
           <button type="button">Get Started</button>
         </div>
         <div className="gpt3__header-content__input">
-          <button type="button" className='dw'>Download whitepaper</button>
+          <button type="button" className='dw'><a href='https://mkstudios.gitbook.io/lynch/' alt="broken link">Whitepaper</a></button>
         </div>
       </div> 
     </div>
