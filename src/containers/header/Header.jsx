@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import './header.css';
 
+
 function Header (){
   const [show, setShow] = useState(false)
   return (
     <div className="gpt3__header section__padding" id="home">
+
       <div className="gpt3__header-content">
         <h1 className="gradient__text">We will build an RPG Game for gamers and NFT addicts to play, earn and trade in a decentralized economy</h1>
         <p>Lynch is a play-to-earn game</p>
