@@ -7,6 +7,14 @@
     background: #000;
    
 }
+
+circle,
+rect,
+line {
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+}
 .gpt3__header-content {
     flex: 1;
     display: flex;

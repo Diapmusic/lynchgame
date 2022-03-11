@@ -26,21 +26,26 @@ const featuresData = [
 function Features (){
   
   return(
-    <motion.div className="gpt3__features section__padding" id="features" 
-      animate={{ rotate: 360 }}
-      transition={{ duration: 2 }}
+    <div className="gpt3__features section__padding" id="features" 
+      
     >
-      <div className="gpt3__features-heading">
+      <motion.div className="gpt3__features-heading"
+        whileHover={{ scale: 1.01 }}
+        whileTap={{ scale: 0.8 }}
+      >
         <h1 className="gradient__text">ROAD-MAP</h1>
         <p>The roadmap is subject to change, and will be frequently updated</p>
-      </div>
-      <div className="gpt3__features-container">
+      </motion.div>
+      <motion.div className="gpt3__features-container"
+        whileHover={{ scale: 1.01 }}
+        whileTap={{ scale: 0.8 }}
+      >
         {featuresData.map((item, index) => (
           <Feature title={item.title} text={item.text} key={item.title + index} />
         ))}
-      </div>
+      </motion.div>
 
-    </motion.div>
+    </div>
   )}
   
 export default Features;
