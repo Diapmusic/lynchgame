@@ -16,10 +16,10 @@ const Navbar = () => {
             <img src={logo}  alt="logo"/>
           </div>
           <div className="gpt3__navbar-links_container">
-            <p><a href="#wgpt3">Lynch Game</a></p>
-            <p><a href="#features">Roadmap</a></p>
-            <p><a href="#possibility">Lynch Metaverse</a></p>
-            <p><a href="#home">About</a></p>
+            <p><a href="#lynchGames">Lynch Game</a></p>
+            <p><a href="#roadmaps">Roadmap</a></p>
+            <p><a href="#LynchMetaverse">Lynch Metaverse</a></p>
+            <p><a href="#About">About</a></p>
             <p><a href="#blog"></a></p>
           </div>
         </div>
@@ -31,10 +31,10 @@ const Navbar = () => {
           {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
-              <p><a href="#wgpt3">Lynch Game</a></p>
-              <p><a href="#features">Roadmap</a></p>
-              <p><a href="#possibility">Lynch Metaverse</a></p>
-              <p><a href="#home">About</a></p>
+              <p><a href="#lynchgames">Lynch Game</a></p>
+              <p><a href="#Roadmaps">Roadmap</a></p>
+              <p><a href="#lynchmetaverse">Lynch Metaverse</a></p>
+              <p><a href="#about">About</a></p>
               <p><a href="#blog"></a></p>
             </div>
             
