@@ -15,26 +15,21 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Mk-Studio, <br /> All Rights Reserved</p>
+        <p>Diamond-Studio, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <h4>Soocial Media</h4>
+        <p>Twitter</p>
+        <p>Discord</p>
+        <p>Telegram</p>
+        
       </div>
+      
       <div className="gpt3__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>mk-studio</p>
-        <p>contact number</p>
-        <p>company email addres</p>
+        
+        <h4>LYNCH-GAME</h4>
+        
+        <p>company email address: support@lynch.games</p>
       </div>
     </div>
 

@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <p><a href="#wgpt3">Lynch Game</a></p>
           <p><a href="#features">Roadmap</a></p>
-          <p><a href="#possibility">Lynch Token</a></p>
+          <p><a href="#possibility">Lynch Metaverse</a></p>
           <p><a href="#home">About</a></p>
           <p><a href="#blog"></a></p>
         </div>
@@ -31,9 +31,9 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#wgpt3">Lynch Game</a></p>
             <p><a href="#features">Roadmap</a></p>
-            <p><a href="#possibility">Lynch Token</a></p>
+            <p><a href="#possibility">Lynch Metaverse</a></p>
             <p><a href="#home">About</a></p>
-            <p><a href="#blog">Contact</a></p>
+            <p><a href="#blog"></a></p>
           </div>
           
         </div>
