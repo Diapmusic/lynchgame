@@ -32,9 +32,9 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <p><a href="#">Home</a></p>
-              <p><a href="#lynchgames">Lynch Game</a></p>
+              <p><a href="#lynchGames">Lynch Game</a></p>
               <p><a href="#roadmap">Roadmap</a></p>
-              <p><a href="#lynchmetaverse">Lynch Metaverse</a></p>
+              <p><a href="#lynchMetaverse">Lynch Metaverse</a></p>
               
               <p><a href="#blog"></a></p>
             </div>
