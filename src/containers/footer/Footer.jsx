@@ -23,10 +23,10 @@ const Footer = () => (
         whileHover={{ scale: 1.01 }}
         whileTap={{ scale: 0.8 }}
       >
-        <h4>Soocial Media</h4>
-        <p><a href=''>Twitter</a></p>
-        <p><a href=''>Discord</a></p>
-        <p><a href=''>Telegram</a></p>
+        <h4>Social Media</h4>
+        <p><a href='https://mobile.twitter.com/game_lynch'>Twitter</a></p>
+        <p><a href='https://discord.gg/xAq9HZ55b5'>Discord</a></p>
+        <p><a href='https://t.me/LynchOfficial'>Telegram</a></p>
         
       </motion.div>
       
