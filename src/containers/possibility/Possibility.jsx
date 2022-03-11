@@ -4,7 +4,7 @@ import './possibility.css';
 import { motion } from 'framer-motion/dist/framer-motion';
 
 const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
+  <div className="gpt3__possibility section__padding" id="lynchMetaverse">
     <motion.div className="gpt3__possibility-image"
       whileHover={{ scale: 1.01 }}
       whileTap={{ scale: 0.8 }}

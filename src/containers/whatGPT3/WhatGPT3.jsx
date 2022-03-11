@@ -4,7 +4,7 @@ import './whatGPT3.css';
 import { motion } from 'framer-motion/dist/framer-motion';
 
 const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div className="gpt3__whatgpt3 section__margin" id="lynchGames">
     <motion.div className="gpt3__whatgpt3-feature"
      whileHover={{ scale: 1.01 }}
      whileTap={{ scale: 0.8 }}
