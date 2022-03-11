@@ -1,11 +1,19 @@
 import React, {useState} from 'react';
 import './header.css';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 
 function Header (){
   const [show, setShow] = useState(false)
   return (
-    <div className="gpt3__header section__padding" id="home">
+    <motion.div className="gpt3__header section__padding" id="home"
+      animate={{ rotate: 360 }}
+      transition={{ duration: 1 }}
+      whileHover={{ scale: 1.01 }}
+      whileTap={{ scale: 0.8 }}
+      
+    >
+    
 
       <div className="gpt3__header-content">
         <h1 className="gradient__text">We will build an RPG Game for gamers and NFT addicts to play, earn and trade in a decentralized economy</h1>
@@ -16,8 +24,9 @@ function Header (){
         <div className="gpt3__header-content__input">
           <button type="button" className='dw'><a href='https://mkstudios.gitbook.io/lynch/' alt="broken link">Whitepaper</a></button>
         </div>
+       
       </div> 
-    </div>
+    </motion.div>
   );
 }
 

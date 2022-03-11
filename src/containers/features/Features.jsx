@@ -1,6 +1,8 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
+import { motion } from 'framer-motion/dist/framer-motion';
+
 
 const featuresData = [
   {
@@ -21,18 +23,24 @@ const featuresData = [
   },
 ];
 
-const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
-      <h1 className="gradient__text">ROAD-MAP</h1>
-      <p>The roadmap is subject to change, and will be frequently updated</p>
-    </div>
-    <div className="gpt3__features-container">
-      {featuresData.map((item, index) => (
-        <Feature title={item.title} text={item.text} key={item.title + index} />
-      ))}
-    </div>
-  </div>
-);
+function Features (){
+  
+  return(
+    <motion.div className="gpt3__features section__padding" id="features" 
+      animate={{ rotate: 360 }}
+      transition={{ duration: 2 }}
+    >
+      <div className="gpt3__features-heading">
+        <h1 className="gradient__text">ROAD-MAP</h1>
+        <p>The roadmap is subject to change, and will be frequently updated</p>
+      </div>
+      <div className="gpt3__features-container">
+        {featuresData.map((item, index) => (
+          <Feature title={item.title} text={item.text} key={item.title + index} />
+        ))}
+      </div>
 
+    </motion.div>
+  )}
+  
 export default Features;
