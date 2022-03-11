@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/lynch.png';
 import './navbar.css';
-import 'react-sticky-header/styles.css';
-import  StickyHeader from react-sticky-header;
+
 
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <StickyHeader>
+    
       <div className="gpt3__navbar" >
         <div className="gpt3__navbar-links">
           <div className="gpt3__navbar-links_logo">
@@ -43,7 +42,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-    </StickyHeader>
+
   );
 };
 
