@@ -9,10 +9,10 @@ const WhatGPT3 = () => (
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The possibilities of Lynch Game is beyond your imagination</h1>
-      <p>Explore the Library</p>
+     
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Players-to-earn" text="Players can earn the token by playing the game." />
+      <Feature title="Play-to-earn" text="Players can earn the token by playing the game." />
       <Feature title="Minting" text="Players will spend LCH whenever they want to add a new item to the blockchain." />
       <Feature title="Purchase in-game items and voting" text="Players will spend the token to purchase, upgrade their characters, or vote on crucial game issues, etc." />
       <Feature title="LCH Sector" text="Active LCH holders (LCH sector) will be able to vote within the Lynch platform to achieve a level of secrecy and security. The LCH sector will also govern the ecosystem through Decentralized Autonomous Organization (DAO)." />
