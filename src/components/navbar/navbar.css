@@ -80,15 +80,15 @@
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
-    position: absolute;
+    position:absolute;
     right: 0;
     top: 40px;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    z-index: 1;
 }
-
 .gpt3__navbar-menu_container p {
     margin: 1rem 0;
 }
