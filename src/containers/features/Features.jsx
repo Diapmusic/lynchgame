@@ -11,15 +11,19 @@ const featuresData = [
   },
   {
     title: 'Second Phase (Q2)',
-    text: ' Character and storyline completion, Game concept design, art production, 2D/3D art modelling',
+    text: ' Character and storyline completion, Private sale, Game concept design, art production, 2D/3D art modelling',
   },
   {
     title: 'Third Phase(Q3)',
-    text: ' Game trailer preview, Private sale, Game mechanics implementation, Prototyping, Public sale, Nfts marketplace and game development ',
+    text: ' Game trailer preview,  Game mechanics implementation, Prototyping, Public sale, Nfts marketplace and game development ',
   },
   {
     title: 'Fourth Phase(Q4)',
     text: ' Beta version, Testing and development, Public sale, Dex listing and Game launch. ',
+  },
+  {
+    title: 'Fiveth Phase(2023)',
+    text: ' Lynch Dex ',
   },
 ];
 

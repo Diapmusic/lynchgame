@@ -15,6 +15,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "react-sticky-header": "^0.2.0",
     "three": "^0.138.3",
     "web-vitals": "^1.1.2"
   },

@@ -108,6 +108,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
         padding: 0.1rem 4rem;
@@ -131,3 +133,4 @@
         display: block;
     }
 }
+

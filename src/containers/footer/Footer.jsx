@@ -19,9 +19,9 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Soocial Media</h4>
-        <p>Twitter</p>
-        <p>Discord</p>
-        <p>Telegram</p>
+        <p><a href=''>Twitter</a></p>
+        <p><a href=''>Discord</a></p>
+        <p><a href=''>Telegram</a></p>
         
       </div>
       
