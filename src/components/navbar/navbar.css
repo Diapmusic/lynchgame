@@ -110,13 +110,13 @@
 
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
-        padding: 2rem 4rem;
+        padding: 0.1rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
     .gpt3__navbar {
-        padding: 2rem;
+        padding: 0.1rem 2rem;
     }
 
     .gpt3__navbar-sign {
