@@ -10,8 +10,7 @@ function Header (){
     <motion.div className="gpt3__header section__padding" id="home"
       animate={{ rotate: 360 }}
       transition={{ duration: 1 }}
-      whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.8 }}
+      
       
     >
     
