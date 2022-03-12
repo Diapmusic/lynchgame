@@ -1,12 +1,13 @@
 .gpt3__navbar {
     display: flex;
     justify-content: space-between;
-    position:sticky;
+    position: sticky;
+    background: transparent;
     top: 0;
     z-index: 999;
     align-items: center;
     padding: 1rem 6rem;
-    background: transparent;
+ 
     
 }
 .gpt3__navbar .active{
