@@ -9,7 +9,7 @@ const WhatGPT3 = () => (
      whileHover={{ scale: 1.01 }}
      whileTap={{ scale: 0.8 }}
     >
-      <Feature title="What is Lynch Game" text="Lynch Is an action RPG, fantasy, multiplayer that enables players to build their team of Lynchers and compete in an epic adventure to earn rewards. Lynch is a play-to-earn and play-to-win business model that enables active players to earn rewards or win and sell them to other active players. Additionally, players will have full ownership of their in-game items, which they can trade for real money. Lynch will offer a single-player that control a team of heroes." />
+      <Feature title="What is Lynch Game" text="Lynch Is an action RPG, fantasy, multiplayer Game that enables players to build their team of Lynchers and compete in  epic adventures to earn rewards. Lynch is a play-to-earn and play-to-win business model that enables active players to earn rewards or win and sell them to other active players. Additionally, players will have full ownership of their in-game items, which they can trade for real money. Lynch will offer a single-player that will control a team of heroes." />
     </motion.div>
     <motion.div className="gpt3__whatgpt3-heading"
      whileHover={{ scale: 1.01 }}

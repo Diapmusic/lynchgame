@@ -38,7 +38,7 @@ function Features (){
         whileTap={{ scale: 0.8 }}
       >
         <h1 className="gradient__text">ROAD-MAP</h1>
-        <p>The roadmap is subject to change, and will be frequently updated</p>
+        <p>The roadmap is subject to changes, and will be frequently updated</p>
       </motion.div>
       <motion.div className="gpt3__features-container"
         whileHover={{ scale: 1.01 }}
