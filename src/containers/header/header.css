@@ -1,19 +1,6 @@
 .gpt3__header {
     display: flex;
-    flex-direction: row;
-    
-}
-.dw {
-    background-color: #fff;
-   
-}
-
-circle,
-rect,
-line {
-  stroke-width: 10px;
-  stroke-linecap: round;
-  fill: transparent;
+    flex-direction: row;    
 }
 .gpt3__header-content {
     flex: 1;
@@ -21,7 +8,6 @@ line {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
     margin-right: 5rem;
 }
 

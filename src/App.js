@@ -5,17 +5,15 @@ import { CTA, Brand, Navbar } from './components';
 import './App.css';
 
 
-//import Particles from 'react-particles-js';
-
 
 
 function App (){
  
   return(
-    <div className="App"  >
-    
-      
+    <div className="App"  > 
+   
       <div className="gradient__bg">
+
         <Navbar />
         <Header/>
         <Brand />
