@@ -7,9 +7,8 @@ import { motion } from 'framer-motion/dist/framer-motion';
 function Header (){
   const [show, setShow] = useState(false)
   return (
-    <motion.div className="gpt3__header section__padding" id="home"
-      animate={{ rotate: 360 }}
-      transition={{ duration: 1 }}
+    <div className="gpt3__header section__padding" id="home"
+     
       
       
     >
@@ -29,7 +28,7 @@ function Header (){
         </motion.div>
        
       </div> 
-    </motion.div>
+    </div>
   );
 }
 
