@@ -7,19 +7,19 @@ import { motion } from 'framer-motion/dist/framer-motion';
 const featuresData = [
   {
     title: 'First Phase (Q1)',
-    text: ' Team organization, Logo design Website, launch Whitepaper ,Token and smart contract creation, Storyline , basic character design and Seed token sale phase. ',
+    text: ' Team organization, Logo design, Website Design , Whitepaper ,Token and Smart Contract creation, Storyline , Basic character design and Seed token sale . ',
   },
   {
     title: 'Second Phase (Q2)',
-    text: ' Character and storyline completion, Private sale, Game concept design, art production, 2D/3D art modelling',
+    text: ' Character and storyline completion, Private sale, Game concept design, Art production, 2D/3D art modelling',
   },
   {
     title: 'Third Phase(Q3)',
-    text: ' Game trailer preview,  Game mechanics implementation, Prototyping, Public sale, Nfts marketplace and game development ',
+    text: ' Game trailer preview,  Game mechanics implementation, Prototyping, Public sale, Nft Marketplace and Game Development ',
   },
   {
     title: 'Fourth Phase(Q4)',
-    text: ' Beta version, Testing and development, Public sale, Dex listing and Game launch. ',
+    text: 'Game Beta version, Testing and Development, Dex listing and Game launch. ',
   },
   {
     title: 'Fiveth Phase(2023)',
