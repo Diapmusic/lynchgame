@@ -1,7 +1,7 @@
 import React from 'react';
 import gpt3Logo from '../../assets/logo3.png';
 import './footer.css';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { FaBeer , FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading"
@@ -18,9 +18,9 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Social Media</h4>
-        <p><a href='https://mobile.twitter.com/game_lynch'>Twitter</a></p>
-        <p><a href='https://discord.gg/xAq9HZ55b5'>Discord</a></p>
-        <p><a href='https://t.me/LynchOfficial'>Telegram</a></p>
+        <p><a href='https://mobile.twitter.com/game_lynch'>Twitter <FaTwitter/></a></p>
+        <p><a href='https://discord.gg/xAq9HZ55b5'>Discord <FaDiscord/></a></p>
+        <p><a href='https://t.me/LynchOfficial'>Telegram<FaTelegram/></a></p>
         
       </div>
       
