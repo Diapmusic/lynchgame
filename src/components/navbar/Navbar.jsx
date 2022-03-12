@@ -20,7 +20,6 @@ const Navbar = () => {
             <p><a href="#lynchGames">Lynch Game</a></p>
             <p><a href="#roadmap">Roadmap</a></p>
             <p><a href="#lynchMetaverse">Lynch Metaverse</a></p>
-            <p><a href="#blog"></a></p>
           </div>
         </div>
         
@@ -35,8 +34,6 @@ const Navbar = () => {
               <p><a href="#lynchGames">Lynch Game</a></p>
               <p><a href="#roadmap">Roadmap</a></p>
               <p><a href="#lynchMetaverse">Lynch Metaverse</a></p>
-              
-              <p><a href="#blog"></a></p>
             </div>
             
           </div>
