@@ -7,7 +7,7 @@ import { motion } from 'framer-motion/dist/framer-motion';
 const featuresData = [
   {
     title: 'First Phase (Q1)',
-    text: ' Team organization, Logo design, Website Design , Whitepaper ,Token and Smart Contract creation, Storyline , Basic character design and Seed token sale . ',
+    text: ' Team organization, Logo design, Website Design , Whitepaper ,Token and Smart Contract creation, Storyline , Basic character design  ',
   },
   {
     title: 'Second Phase (Q2)',
