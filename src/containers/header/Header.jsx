@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import './header.css';
 import {saveAs } from 'file-saver';
 import { init } from 'ityped';
@@ -13,7 +13,7 @@ function Header (){
     init(textRef.current,{
       showCursor: false,
       backDelay:1500,
-      strings: [ "Lynch is a play-to-earn game", " play-to-win business model" , "it  enables active players to earn rewards" ,"  win and sell their rewards to other active players", " players will have full ownership of their in-game items", "In-game item can trade for real money " ]
+      strings: [ "Lynch is a play-to-earn game", " play-to-win business model" , "it  enables active players to earn rewards" ,"   sell Your rewards to other active players", " players will have full ownership of their in-game items", "In-game item can be traded for real money " ]
     }); 
   },[]);
   const [show, setShow] = useState(false)
@@ -36,6 +36,6 @@ function Header (){
     </div>
   );
 }
-import { init } from 'ityped';
+
 
 export default Header;
