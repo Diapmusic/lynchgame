@@ -14,12 +14,11 @@ function Header (){
         <div className="gpt3__header-content__input">
           
         </div>
-        <motion.div className="gpt3__header-content__input"
-        whileHover={{ scale: 1.01 }}
-        whileTap={{ scale: 0.8 }}
+        <div className="gpt3__header-content__input"
+       
         >
-          <button type="button" className='dw'><a href='https://mkstudios.gitbook.io/lynch/' alt="broken link">Whitepaper</a></button>
-        </motion.div>
+          <button type="button" className='dw'>Download Whitepaper</button>
+        </div>
        
       </div> 
     </div>
