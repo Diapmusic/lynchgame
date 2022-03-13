@@ -1,11 +1,17 @@
 import React, {useState} from 'react';
 import './header.css';
-import { motion } from 'framer-motion/dist/framer-motion';
+import {saveAs } from 'file-saver';
 
 
 
 function Header (){
   const [show, setShow] = useState(false)
+  const saveFile = () => {
+    saveAs(
+      "https://github.com/Diapmusic/lynchgame/raw/master/src/assets/lynchWhitepaper.pdf",
+      "example.pdf"
+    );
+  };
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content"> 
@@ -17,7 +23,7 @@ function Header (){
         <div className="gpt3__header-content__input"
        
         >
-          <button type="button" className='dw'>Download Whitepaper</button>
+          <button type="button" className='dw' onClick={saveFile}>Download Whitepaper</button>
         </div>
        
       </div> 
