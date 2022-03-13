@@ -7,10 +7,19 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
+  const Changebg = () => {
+    if(window.scrollY >= 80){
+      setNavbar(true)
+    }else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener('scroll', Changebg);
   return (
     
-      <div className="gpt3__navbar" >
+      <div className={navbar ? 'gpt3__navbar active' : 'gpt3__navbar'} >
         <div className="gpt3__navbar-links">
           <div className="gpt3__navbar-links_logo">
             <img src={logo}  alt="logo" href="#"/>
