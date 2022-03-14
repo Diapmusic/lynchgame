@@ -2,7 +2,7 @@
   "name": "lynch_game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://diapmusic.github.io/lynchgame/",
+  "homepage": "https://lynch.games",
   "dependencies": {
     "@react-three/fiber": "^7.0.26",
     "@testing-library/jest-dom": "^5.15.1",
