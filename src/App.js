@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 function App (){
   useEffect(() =>{
-    Aos.init({duration:3000,
+    Aos.init({duration:2000, delay:600,
     });
   },[]);
  
@@ -19,14 +19,14 @@ function App (){
           <div className="gradient__bg">
 
             <Navbar/>
-            <div data-aos="fade-right"><Header/></div>
-            <div data-aos="flip-down"><Brand /></div>
-            <div data-aos="fade-up"><WhatGPT3 /></div>
-            <div data-aos="fade-left"><Features /></div>
-            <div data-aos="flip-down"><Possibility /></div>
-            <div data-aos="fade-right"><Token/></div>
-            <div data-aos="fade-right"><CTA /></div>
-            <div data-aos="fade-up"><Footer /></div>
+            <div data-aos=""><Header/></div>
+            <div data-aos=""><Brand /></div>
+            <div data-aos=""><WhatGPT3 /></div>
+            <div data-aos=""><Features /></div>
+            <div data-aos=""><Possibility /></div>
+            <div data-aos=""><Token/></div>
+            <div data-aos=""><CTA /></div>
+            <div data-aos=""><Footer /></div>
           </div>
        
   </div>
