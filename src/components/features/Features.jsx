@@ -1,5 +1,5 @@
 import React from 'react';
-import Feature from '../../components/feature/Feature';
+import Feature from '../feature/Feature';
 import './features.css';
 import { motion } from 'framer-motion/dist/framer-motion';
 
@@ -23,7 +23,7 @@ const featuresData = [
   },
   {
     title: 'Fiveth Phase(2023)',
-    text: ' Lynch Dex, EEG VR game prototyping development ',
+    text: ' Lynch Dex ',
   },
 ];
 

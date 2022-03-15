@@ -6,7 +6,9 @@ import { init } from 'ityped';
 
 
 
+
 function Header (){
+ 
   const textRef = useRef();
 
   useEffect(() => {
