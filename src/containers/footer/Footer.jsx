@@ -30,7 +30,7 @@ const Footer = () => (
         
         <h4>LYNCH-GAME</h4>
         
-        <p>For Business Enquiries and Support Email:<a href='support@lynch.games'> support@lynch.games</a></p>
+        <p>For Business Enquiries and Support Email:<a href='support@lynch.games' type='email'> support@lynch.games</a></p>
       </div>
     </div>
 
