@@ -5,10 +5,12 @@ import './App.css';
 import Token from './containers/token/Token';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ImageSlider from './containers/gallery/ImageSlider';
+import { SliderData } from './containers/gallery/SliderData';
 
 function App (){
   useEffect(() =>{
-    Aos.init({duration:2000, delay:600,
+    Aos.init({duration:2000, 
     });
   },[]);
  
@@ -19,13 +21,14 @@ function App (){
           <div className="gradient__bg">
 
             <Navbar/>
-            <div data-aos=""><Header/></div>
-            <div data-aos=""><Brand /></div>
-            <div data-aos=""><WhatGPT3 /></div>
-            <div data-aos=""><Features /></div>
-            <div data-aos=""><Possibility /></div>
-            <div data-aos=""><Token/></div>
-            <div data-aos=""><CTA /></div>
+            <div data-aos="fade-right"><Header/></div>
+            <div data-aos="flip-left"><Brand /></div>
+            <div data-aos="fade-right"><WhatGPT3 /></div>
+            <div data-aos="flip-right"><Features /></div>
+            <div data-aos="fade-down"><Possibility /></div>
+            <ImageSlider slides={SliderData} />
+            <div data-aos="fade-right" delay="600"><Token/></div>
+            <div data-aos="fade-down"><CTA /></div>
             <div data-aos=""><Footer /></div>
           </div>
        

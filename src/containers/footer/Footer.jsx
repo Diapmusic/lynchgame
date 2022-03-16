@@ -14,7 +14,9 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Diamond-Studio, <br /> All Rights Reserved</p>
+        
+        <p>CEO: Michael Vendetta</p>
+        <p>Advisor: Bohdan</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Social Media</h4>

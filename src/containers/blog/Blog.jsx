@@ -9,14 +9,11 @@ const Blog = () => (
       <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
     </div>
     <div className="gpt3__blog-container">
-      <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="Lynch Token Launch" />
-      </div>
+      
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="Lynch Game" />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="Lynch latest Partnerships" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="Latest on Lynch Game characters" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="" />
+        <Article text="CEO : Michael Vendetta" />
+        <Article  text="Advisor: " />
+        
       </div>
     </div>
   </div>
