@@ -29,8 +29,8 @@ function App (){
             <div data-aos="fade-down"><Possibility /></div>
             <ImageSlider slides={SliderData} />
             <div data-aos="fade-right" delay="600"><Token/></div>
-            <div data-aos="fade-down"><CTA /></div>
             <div><TeamSection/></div>
+            <div data-aos="fade-down"><CTA /></div>
             <div data-aos=""><Footer /></div>
           </div>
        
