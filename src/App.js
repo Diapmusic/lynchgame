@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import ImageSlider from './containers/gallery/ImageSlider';
 import { SliderData } from './containers/gallery/SliderData';
 import TeamSection from './containers/teamsection/TeamSection';
+import Accordion from './containers/accordion/Accordion';
 
 function App (){
   useEffect(() =>{
@@ -30,6 +31,7 @@ function App (){
             <ImageSlider slides={SliderData} />
             <div data-aos="fade-right" delay="600"><Token/></div>
             <div><TeamSection/></div>
+          
             <div data-aos="fade-down"><CTA /></div>
             <div data-aos=""><Footer /></div>
           </div>
