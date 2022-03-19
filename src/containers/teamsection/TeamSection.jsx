@@ -7,7 +7,7 @@ function TeamSection() {
   return (
     <div class="main-container" id='contributor'>
   <div class="heading">
-    <h1 class="heading__title">Gradient Banner Cards</h1>
+    <h1 class="heading__title"></h1>
     <p class="heading__credits"><a class="heading__link" target="_blank" href="https://dribbble.com/sl">Team </a></p>
   </div>
   <div class="cards">
