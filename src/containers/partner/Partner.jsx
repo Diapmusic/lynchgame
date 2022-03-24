@@ -21,7 +21,7 @@ function Partner() {
                         <img src={Log} alt="team" className='img23' />
                         <div class="inner">
                             <div class="info">
-                                <img src={Pandas} alt ="ite"/>
+                                <img src={Pandas} alt ="ite" />
                              
                             </div>
                         </div>
