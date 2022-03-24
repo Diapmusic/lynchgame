@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import ImageSlider from './containers/gallery/ImageSlider';
 import { SliderData } from './containers/gallery/SliderData';
 import TeamSection from './containers/teamsection/TeamSection';
+import Partner from './containers/partner/Partner';
 
 
 function App (){
@@ -31,6 +32,7 @@ function App (){
             <ImageSlider slides={SliderData} />
             <div data-aos="fade-right" delay="600"><Token/></div>
             <div><TeamSection/></div>
+            <div><Partner/></div>
             <div data-aos="fade-down"><CTA /></div>
             <div data-aos=""><Footer /></div>
           </div>

@@ -8,7 +8,7 @@ function TeamSection() {
     <div class="main-container" id='contributor'>
   <div class="heading">
     <h1 class="heading__title"></h1>
-    <p class="heading__credits"><a class="heading__link" target="_blank" href="https://dribbble.com/sl">Team </a></p>
+    <p class="heading__credits"><a class="heading__link" target="_blank" >Team </a></p>
   </div>
   <div class="cards">
     <div class="card card-1">
