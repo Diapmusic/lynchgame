@@ -131,7 +131,8 @@
 @media(max-width: 767px){
 	.team-section .team-items .item{
       flex-basis: calc(40%);
-       max-width: calc(50%);
+       max-width: calc(40%);
+	 
 
    }
    .info{
