@@ -6,6 +6,7 @@ import multi from './images/multilogo.png';
 
 
 function Partner() {
+    
   return (
     <div class="team-section">
         <div class="container">
