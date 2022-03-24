@@ -26,16 +26,12 @@ function Partner() {
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src={multi} alt="team" className='multi' />
-                        <div class="inner">
-                            <div class="info">
-                                <h5>MULTIVACPAD</h5>
+                
                                 
                             
-                            </div>
-                        </div>
-                    </div>
+                        
+                    
+                    
                     
                     
                    
