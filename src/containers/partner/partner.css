@@ -111,6 +111,13 @@
 .team-section .team-items .item .inner .info .social-links a:hover{
 	box-shadow: 0 0 10px #000;
 }
+.img23{
+    padding-bottom: 50px;
+}
+.multi{
+    height: 60%;
+    width: 50%;
+}
 
 /*responsive*/
 @media(max-width: 991px){
