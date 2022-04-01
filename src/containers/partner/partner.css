@@ -70,6 +70,7 @@
 	border-radius:8px;
 	transition: all .5s ease;
 	margin-top: -40px;
+	
 }
 .info{
 	background-color:black;
@@ -80,6 +81,7 @@
 	border-radius:8px;
 	transition: all .5s ease;
 	margin-top: -40px;
+
 }
 .team-section .team-items .item:hover  .info{
     transform: translateY(-20px);
