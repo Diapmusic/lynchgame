@@ -25,16 +25,7 @@ function Partner() {
                              
                             </div>
                         </div>
-                    </div>
-                
-                                
-                            
-                        
-                    
-                    
-                    
-                    
-                   
+                    </div>    
                 </div>
             </div>
         </div>
