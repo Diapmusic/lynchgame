@@ -137,10 +137,11 @@
 }
 
 .img23{
-    padding-bottom: 50px;
+    padding-bottom: -50px;
 }
 .img234{
-	height: 40%;
+	margin-bottom: 70px;
+	height: 50%;
 	width: 30%;
 }
 .pandas{

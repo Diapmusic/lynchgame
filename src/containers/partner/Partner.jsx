@@ -3,7 +3,7 @@ import './partner.css';
 import Pandas from './images/pandas.png';
 import Log from './images/pandasdraw.png';
 import multi from './images/multilogo.png';
-import multi2 from './images/multivacpad.png';
+import mul from './images/mul.png';
 
 
 function Partner() {
@@ -25,11 +25,10 @@ function Partner() {
                                 <img src={Pandas} alt ="ite" /> 
                             </div>
                         </div>
-                        <div class="item">
-                            <img src={multi} alt="team" className='unreal'/>
-                        </div> 
                     </div>    
-                     
+                    <div class="item">
+                        <img src={mul} alt="team" className='img234' />                      
+                    </div>    
                 </div>
             </div>
         </div>
