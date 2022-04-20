@@ -25,7 +25,7 @@ function Header (){
         <h1 className="gradient__text">We will build an RPG P2E metaverse Game for gamers and NFT addicts to play, earn and trade in a decentralized economy</h1>
         <p><span ref={textRef} className="itypled-cursor"></span></p>
         <div className="gpt3__header-content__input">
-          <button type="button" className='dw' > <a href='https://github.com/Diapmusic/lynchgame/raw/master/src/assets/Lynch-Whitepaper.pdf'>WhitePaper</a></button>
+          <button type="button"  className='dw' > <a href='https://github.com/Diapmusic/lynchgame/raw/master/src/assets/Lynch-Whitepaper.pdf'>WhitePaper</a></button>
         </div>
        
       </div> 
