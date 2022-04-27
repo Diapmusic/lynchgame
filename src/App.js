@@ -10,6 +10,7 @@ import { SliderData } from './containers/gallery/SliderData';
 import TeamSection from './containers/teamsection/TeamSection';
 import Partner from './containers/partner/Partner';
 import Powered from './containers/Powered/Powered';
+import Featuredin from './containers/featuredin/featuredin';
 
 
 function App (){
@@ -35,6 +36,7 @@ function App (){
             <div><TeamSection/></div>
             <div><Partner/></div>
             <div><Powered/></div>
+           <div><Featuredin/></div>
             <div data-aos="fade-down"><CTA /></div>
             <div data-aos=""><Footer /></div>
           </div>

@@ -21,7 +21,15 @@ function TeamSection() {
       
       <h2 class="card__title">Michael Vendetta</h2>
       <p class="card__apply">
-        <a class="card__link">CEO </a>
+        <a class="card__link">Founder </a>
+      </p>
+    </div>
+    <div class="card card-1"  data-aos="fade-left">
+      
+      
+      <h2 class="card__title">Hassan</h2>
+      <p class="card__apply">
+        <a class="card__link">Co-founder</a>
       </p>
     </div>
     <div class="card card-2"  data-aos="flip-left">
