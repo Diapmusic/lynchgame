@@ -15,7 +15,7 @@ function Header (){
       showCursor: false,
       backDelay:1500,
       strings: [ "Lynch is a play-to-earn game", " play-to-win business model" , "it  enables active players to earn rewards" ,"   sell Your rewards to other active players", " players will have full ownership of their in-game items", "In-game item can be traded for real money " ]
-    }); 
+    });
   },[]);
   const [show, setShow] = useState(false)
   return (
