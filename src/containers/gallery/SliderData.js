@@ -24,3 +24,5 @@ export const SliderData = [
         'https://i.ibb.co/PZ7Nghq/tomasz-zero-night-06.jpg'
     }
 ];
+
+
