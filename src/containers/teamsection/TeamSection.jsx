@@ -24,7 +24,7 @@ function TeamSection() {
         <a class="card__link">Founder </a>
       </p>
     </div>
-    <div class="card card-1"  data-aos="fade-left">
+    <div class="card card-1"  data-aos="fade-up">
       
       
       <h2 class="card__title">Hassan</h2>
