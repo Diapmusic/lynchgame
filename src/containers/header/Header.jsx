@@ -6,7 +6,7 @@ import { init } from 'ityped';
 
 
 
-function Header (){
+function Header (){     
  
   const textRef = useRef();
 
@@ -26,7 +26,7 @@ function Header (){
         <div className="gpt3__header-content__input">
           <button type="button"  className='dw' > <a href='https://github.com/Diapmusic/lynchgame/raw/master/src/assets/LynchWhitepaper.pdf'>WhitePaper</a></button>
         </div>
-       
+             
       </div> 
     </div>
   );
