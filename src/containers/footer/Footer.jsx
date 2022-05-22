@@ -2,6 +2,7 @@ import React from 'react';
 import gpt3Logo from '../../assets/logo3.png';
 import './footer.css';
 import { FaBeer , FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
+
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading"

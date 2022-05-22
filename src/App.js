@@ -11,6 +11,7 @@ import TeamSection from './containers/teamsection/TeamSection';
 import Partner from './containers/partner/Partner';
 import Powered from './containers/Powered/Powered';
 import Featuredin from './containers/featuredin/featuredin';
+import Ico from './containers/Ico/ico';
 
 
 function App (){
@@ -27,6 +28,7 @@ function App (){
 
             <Navbar/>
             <div data-aos="fade-right"><Header/></div>
+            <Ico/>
             <div data-aos="flip-left"><Brand /></div>
             <div data-aos="fade-right"><WhatGPT3 /></div>
             <div data-aos="flip-right"><Features /></div>
