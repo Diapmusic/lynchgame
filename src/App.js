@@ -12,6 +12,8 @@ import Partner from './containers/partner/Partner';
 import Powered from './containers/Powered/Powered';
 import Featuredin from './containers/featuredin/featuredin';
 import Ico from './containers/Ico/ico';
+import Home from './Home';
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 
 function App (){
@@ -21,29 +23,31 @@ function App (){
   },[]);
  
   return(
+    
     <div className="App" > 
      
       
           <div className="gradient__bg">
+            
 
             <Navbar/>
-            <div data-aos="fade-right"><Header/></div>
-            <Ico/>
-            <div data-aos="flip-left"><Brand /></div>
-            <div data-aos="fade-right"><WhatGPT3 /></div>
-            <div data-aos="flip-right"><Features /></div>
-            <div data-aos="fade-down"><Possibility /></div>
-            <ImageSlider slides={SliderData} />
-            <div data-aos="fade-right" delay="600"><Token/></div>
-            <div><TeamSection/></div>
-            <div><Partner/></div>
-            <div><Powered/></div>
-           <div><Featuredin/></div>
-            <div data-aos="fade-down"><CTA /></div>
+            <Router>
+            
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/presale" element={<Ico/>}/>
+              
+             
+              </Routes>
+            </Router>
+
             <div data-aos=""><Footer /></div>
           </div>
+
+          </div>
        
-  </div>
+  
+  
   );
 }
 

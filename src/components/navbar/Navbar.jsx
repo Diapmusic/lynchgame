@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/lynch.png';
 import './navbar.css';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -17,16 +18,19 @@ const Navbar = () => {
     }
   };
   window.addEventListener('scroll', Changebg);
+
+
   return (
     
       <div className={navbar ? 'gpt3__navbar active' : 'gpt3__navbar'} >
         <div className="gpt3__navbar-links">
           <div className="gpt3__navbar-links_logo">
-            <img src={logo}  alt="logo" href="#"/>
+            <img src={logo}  alt="logo" href="/Home"/>
           </div>
           <div className="gpt3__navbar-links_container">
-            <p><a href="#">Home</a></p>
+            <p><a href="/">Home</a></p>
             <p><a href="#lynchGames">Lynch Game</a></p>
+            <p ><a href='/presale'>Presale</a></p>
             <p><a href="#roadmap">Roadmap</a></p>
             <p><a href="#lynchMetaverse">Lynch Metaverse</a></p>
             <p><a href="#contributor">Contributors</a></p>
@@ -42,6 +46,7 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links">
               <p><a href="#">Home</a></p>
               <p><a href="#lynchGames">Lynch Game</a></p>
+              <p ><a href='/presale'>Presale</a></p>
               <p><a href="#roadmap">Roadmap</a></p>
               <p><a href="#lynchMetaverse">Lynch Metaverse</a></p>
               <p><a href="#contributor">Contributors</a></p>

@@ -9,9 +9,9 @@ import './ico.css';
 
 function Ico() {
 
-    const rate = 1;
+    const rate = 0.34722222;
 
-    const contract = "0x8E564C2d6bfdb16A0E89a2230F3C35a10D1FA5B0";
+    const contract = "0xA9AE9e538388980282CADA2a6B809653c4A39a28";
 
     const address = "0x1632710e70A93403eB1a09eA8e6eCcCB3955e160";
 
@@ -37,7 +37,7 @@ function Ico() {
 
     async function claimToken (){
         try{
-            swal("", "Token can only be claimed after lock time and vesting period", " error")
+            swal("", "Token can only be claimed after lock  time and vesting period", " error")
         }catch (error) {
             console.log(error)
         }
@@ -45,8 +45,8 @@ function Ico() {
 
     async function sendTransaction (){
         try{
-            if(amount <= 0) {
-                swal("", "Value should be more than 0" , "error");
+            if(amount <= 72000 ) {
+                swal("", "Value should be more than 72000 MTV or 25000 LCH " , "error");
                 return;
             }
 
@@ -61,10 +61,14 @@ function Ico() {
     
     async function connect(){
         try{
+            
             await activate(injested);
+                
+            
+            
         } catch (error){
             console.log('error', error)
-            swal("" , error.message , "error")
+            swal(" ." , "Please change chain to MULTIVAC" , "error")
         }
     }
 
