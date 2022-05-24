@@ -54,7 +54,15 @@
     margin-top: 120px;
     margin-right: 10px;
 }
-
+.account-dis6 {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
 .send {
     display: flex;
     justify-content: center;
@@ -156,7 +164,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .gpt3__footer-heading h1 {
         font-size: 27px;
         line-height: 38px;
@@ -167,7 +175,17 @@
         position: absolute;
         cursor: pointer;
         right: 0;
-        margin-bottom: 150px;
+        margin-top: 200px;
         margin-right: 10px;
     }
+    .account-dis5 {
+        font-size: 12px;
+        font-weight: bold;
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+        margin-top: 250px;
+        margin-right: 10px;
+    }
+
 }

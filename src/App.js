@@ -13,7 +13,9 @@ import Powered from './containers/Powered/Powered';
 import Featuredin from './containers/featuredin/featuredin';
 import Ico from './containers/Ico/ico';
 import Home from './Home';
+import useCountdown from './containers/Ico/useCountdown';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import Homeico from './Homeico';
 
 
 function App (){
@@ -35,7 +37,7 @@ function App (){
             
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/presale" element={<Ico/>}/>
+                <Route path="/presale" element={<Homeico/>}/>
               
              
               </Routes>

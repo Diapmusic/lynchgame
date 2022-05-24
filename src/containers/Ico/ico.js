@@ -2,12 +2,25 @@
 import { useWeb3React } from '@web3-react/core';
 import { injested } from './injested';
 import swal from 'sweetalert';
-import '../../components/cta/cta.css'
+import '../../components/cta/cta.css';
+import ProgressBar from "@ramonak/react-progress-bar";
 import '../../containers/footer/footer.css';
 import {Abi} from './ico.json';
 import './ico.css';
+import { useTimer } from  "reactjs-countdown-hook";
 
 function Ico() {
+    const {
+        isActive,
+        counter,
+        seconds,
+        minutes,
+        hours,
+        days,
+        pause,
+        resume,
+        reset,
+        } = useTimer(172800);
 
     const rate = 0.34722222;
 
@@ -85,6 +98,7 @@ function Ico() {
     } , [active, chainId])
 
     return (
+        <div>
         <div className='gpt3__whatgpt3 section__margin'>
             <div className='row'>
                 <div className='gpt3__cta-btn'>
@@ -100,7 +114,7 @@ function Ico() {
                                 </span>
                             </div>
                         :
-                            <button className='account-dis2' color='red' onClick={connect}>Connect</button>
+                            <button className='account-dis2'  onClick={connect}>Connect</button>
                     }
                 </div>
                 <div className='gpt3__cta-btn'>
@@ -121,7 +135,7 @@ function Ico() {
                                 {rate * amount} Lynch
                             </div>
                                 
-                            
+                        
                         </form>
                     </div>
                     <div className='send'>
@@ -131,6 +145,8 @@ function Ico() {
                     </div>
                 </div>
             </div>
+        </div>
+         
         </div>
     )
 }
