@@ -43,7 +43,7 @@ class Countdown extends React.Component {
           <i class="fas fa-circle fa-stack-2x"></i>
           <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
         </span>
-        <h2 className="presale">Presale starts in</h2>
+        <h1 className="presale">Presale starts in</h1>
         	<div className='countdown-wrapper'>
 					{days && (
 						<div className='countdown-item'>
@@ -74,8 +74,7 @@ class Countdown extends React.Component {
 						</div>
 					)}
 				</div>
-       
-        
+      
       </div>
     )
   }

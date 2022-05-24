@@ -28,6 +28,12 @@ const Prog = () => (
 		<Progress done="0"/>
     </div>
 
+	<div className="prog1">
+          <h3 className="prog">Minimum purchase amount : 100$ or Equivalent in MTV </h3>
+          <h3 className="prog">Curent Rate per Token : 0.004$ </h3>
+    </div>
+	
+
 	</>
 );
 

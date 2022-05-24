@@ -18,12 +18,8 @@ function Home() {
   
   return (
       <div className='App'>
-        <div data-aos="fade-right"><Header/></div>
-          
-        <Countdown timeTillDate="8 31 2019, 9:00 am" timeFormat="MM DD YYYY, h:mm a" />
-                
+        <div data-aos="fade-right"><Header/></div>  
         <div data-aos="flip-left"><Brand /></div>
-        
         <div data-aos="fade-right"><WhatGPT3 /></div>
         <div data-aos="flip-right"><Features /></div>
         <div data-aos="fade-down"><Possibility /></div>
