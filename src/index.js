@@ -1,6 +1,6 @@
 import { Web3ReactProvider } from '@web3-react/core';
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+
 import ReactDOM from 'react-dom';
 import Web3 from 'web3';
 import App from './App';
